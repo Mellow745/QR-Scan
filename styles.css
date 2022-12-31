@@ -1,0 +1,41 @@
+body{
+  background-color: #E6E6FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Outfit",sans-serif;
+}
+
+.Box{
+  background-color: hsl(0, 0%, 100%);
+  width: 320px;
+  border-radius: 10px;
+  padding: 20px 10px;
+  margin: 0% auto;
+}
+
+.Box > .pic{
+  max-width: 100%;
+  border-radius:10px;
+}
+
+p{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  margin:20px 0;
+  font-weight: 700;
+  font-family: "Outfit",sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 20px;
+ }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
